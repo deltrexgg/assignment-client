@@ -1,0 +1,29 @@
+
+.loginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .loginHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+  }
+  
+  .errorMsg {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

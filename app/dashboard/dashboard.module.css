@@ -1,0 +1,23 @@
+
+.dashboardContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .historyContainer {
+    margin-top: 20px;
+  }
+  
+  .historyList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .historyList li {
+    margin-bottom: 10px;
+  }
+  
+  
