@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './otpVerify.module.css';
 
-function otpVerify() {
+function OtpVerify() {
   const [otp, setOtp] = useState('');
   const [error, setError] = useState('');
 
@@ -69,4 +69,4 @@ function otpVerify() {
   );
 }
 
-export default otpVerify;
+export default OtpVerify;

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './login.module.css'; // Import CSS module
 import Link from 'next/link';
 
-function login() {
+function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -88,4 +88,4 @@ setError(data.message)
   );
 }
 
-export default login;
+export default Login;

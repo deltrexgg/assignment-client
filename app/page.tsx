@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import styles from './page.module.css'; 
 import Link from 'next/link';
 
-function page() {
+function Page() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -98,4 +98,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
