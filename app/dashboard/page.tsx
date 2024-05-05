@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './dashboard.module.css'; // Import CSS module
 
-function dashboard() {
+function Dashboard() {
   const [loginHistory, setLoginHistory] = useState([]);
   const [username, setUsername] = useState('')
 
@@ -53,4 +53,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;
