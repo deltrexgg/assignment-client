@@ -10,7 +10,7 @@ function Dashboard() {
   useEffect(() => {
     if (!sessionStorage.getItem('userid')) {
       window.location.href = '/login';
-      //redirect
+      //redirect in dev
     }
 
     const ws = new WebSocket('wss://assignment-server-zx9x.onrender.com');
